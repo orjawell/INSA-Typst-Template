@@ -73,7 +73,7 @@
 
     // image
     if insa == "cvl" {
-      place(dx: 1.60cm, dy: 1.76cm, image(insa-front-cover-path(insa, variant: 1), width: 81.2%))
+      place(dx: 1.58cm, dy: 1.76cm, image(insa-front-cover-path(insa, variant: 1), width: 81.2%))
     } else {
       place(image(insa-front-cover-path(insa, variant: 1), width: 100%))
     }
