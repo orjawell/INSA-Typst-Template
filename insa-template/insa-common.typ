@@ -64,7 +64,7 @@
     if variant == 3 {
       return base-path + "3.png"
     } else {
-      return base-path + ".svg"
+      return base-path + "1.svg"
     }
   } else {
     return base-path + str(variant) + ".png"

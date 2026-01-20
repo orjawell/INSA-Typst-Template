@@ -71,11 +71,8 @@
     back-page = page(footer: none, header: none, margin: 0cm, image("assets/" + insa + "/back-cover2.png", width: 101%))
 
     // image
-    if insa == "cvl" {
-      place(dx: 1.59cm, dy: 1.79cm, image(insa-front-cover-path(insa, variant: 1), width: 81.2%))
-    } else {
-      place(image(insa-front-cover-path(insa, variant: 1), width: 100%))
-    }
+    place(image(insa-front-cover-path(insa, variant: 1), width: 100%))
+
 
     // top-left
     place(
