@@ -59,14 +59,7 @@
   )
 
   let base-path = "assets/" + id + "/front-cover"
-  // cvl has no variant number for svg, and variant 3 is png
-  if id == "cvl" {
-    if variant == 3 {
-      return base-path + "3.png"
-    } else {
-      return base-path + "1.svg"
-    }
-  } else {
-    return base-path + str(variant) + ".png"
-  }
+  let extension = if (id == "cvl" and variant != 3) { "svg" } else { "png" }
+  return base-path + str(variant) + extension
 }
+
