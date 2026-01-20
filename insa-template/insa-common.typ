@@ -39,7 +39,7 @@
   )
 
   let base-path = "assets/" + id + "/logo."
-  let extension = if id == "cvl" { "svg" } else { "png" }
+  let extension = if id == "cvl" { ".svg" } else { ".png" }
   return base-path + extension
 }
 
